@@ -9,9 +9,11 @@ $ ./cleos push action CONTRACT init '[distr_rate, lastvotetime, voterecordnum, B
 
 
 distr_rate: 0 - 10000 for 0% - 100%
+
 lastvotetime and voterecordnum get from here:
 
 http://209.97.162.124:8080/v1/history/get_voters/BPNAME/?limit=1
+
 {
   "voters": [
     {
@@ -25,8 +27,10 @@ http://209.97.162.124:8080/v1/history/get_voters/BPNAME/?limit=1
 
 
 <H2>Step 2 Set and run server</h2>
-<pre>set keys、 accounts of CONTRACT and BPNAME in vexvotesplit.js 
 
+set keys、 accounts of CONTRACT and BPNAME in vexvotesplit.js 
+
+<pre>
 $ nohup node vexvotesplit.js > vexvotesplit.log 2>&1 &</pre>
 
 
