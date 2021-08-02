@@ -1,0 +1,14 @@
+{
+  "name": "vexvotesplite_server",
+  "version": "0.0.1",
+  "description": "Auto split VEX Bp vote reward for Voters",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "vexaniumjs": "16.0.13",
+    "request": "^2.88.0",
+    "node-schedule": "^1.3.2"
+  }
+}
